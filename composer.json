@@ -1,0 +1,40 @@
+{
+    "name": "ws/inflector",
+    "description": "A library to make some operations on particular strings and words.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Georgeault",
+            "email": "github@wedgesama.fr"
+        }
+    ],
+    "keywords": [
+        "inflector",
+        "camelize",
+        "underscore",
+        "pluralize",
+        "singularize",
+        "classify"
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WS\\Libraries\\Inflector\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WS\\Libraries\\Inflector\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
